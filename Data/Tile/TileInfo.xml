@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Tiles>
+<Tile>
+<Tile>..\Texture\Tile\Tile1.png</Tile>
+<Tile>..\Texture\Tile\Tile2.png</Tile>
+<Tile>..\Texture\Tile\Tile0.png</Tile>
+<Tile>..\Texture\Tile\Tile10.png</Tile>
+<Tile>..\Texture\Tile\Tile11.png</Tile>
+<Tile>..\Texture\Tile\Tile12.png</Tile>
+<Tile>..\Texture\Tile\Tile13.png</Tile>
+<Tile>..\Texture\Tile\Tile14.png</Tile>
+<Tile>..\Texture\Tile\Tile15.png</Tile>
+<Tile>..\Texture\Tile\Tile3.png</Tile>
+<Tile>..\Texture\Tile\Tile4.png</Tile>
+<Tile>..\Texture\Tile\Tile5.png</Tile>
+<Tile>..\Texture\Tile\Tile6.png</Tile>
+<Tile>..\Texture\Tile\Tile7.png</Tile>
+<Tile>..\Texture\Tile\Tile8.png</Tile>
+<Tile>..\Texture\Tile\Tile9.png</Tile>
+<Tile>..\Texture\Tile\Tile16.png</Tile>
+<Tile>..\Texture\Tile\Tile17.png</Tile>
+</Tile>
+</Tiles>
