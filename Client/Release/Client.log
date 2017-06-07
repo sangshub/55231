@@ -1,0 +1,137 @@
+﻿Build started 2017-05-15 오후 4:03:32.
+     1>Project "C:\Users\sangs\Desktop\47 권상수\RhythmGame\Client\Client.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../Headers /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Client.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainGame.cpp
+         MainGame.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\Client.exe" /INCREMENTAL:NO /NOLOGO winmm.lib d3dx9d.lib d3d9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\Client.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\Client.lib" /MACHINE:X86 /SAFESEH Release\Client.res
+         Release\Arrow.obj
+         Release\Bar.obj
+         Release\BeatMgr.obj
+         Release\BeatMiss.obj
+         Release\BigDust.obj
+         Release\BlackSkeleton.obj
+         Release\BlueBanshee.obj
+         Release\BlueBat.obj
+         Release\BlueSlime.obj
+         Release\BossHp.obj
+         Release\BossStage.obj
+         Release\BufferMgr.obj
+         Release\CamMgr.obj
+         Release\Chest.obj
+         Release\Client.obj
+         Release\Coin.obj
+         Release\Coin_Multi.obj
+         Release\Coin_Num.obj
+         Release\ComboMgr.obj
+         Release\Cube.obj
+         Release\CubeEffect.obj
+         Release\CubeTex.obj
+         Release\Device.obj
+         Release\Diamond.obj
+         Release\Diamond_Num.obj
+         Release\Door.obj
+         Release\Effect.obj
+         Release\EffectBomb.obj
+         Release\EnemyAttack.obj
+         Release\Etc.obj
+         Release\FireBall.obj
+         Release\FireBallEnd.obj
+         Release\FireBallStart.obj
+         Release\Freeze.obj
+         Release\Frozen.obj
+         Release\Frustum.obj
+         Release\Ghost.obj
+         Release\Golem.obj
+         Release\GreenDragon.obj
+         Release\GreenSlime.obj
+         Release\Harpoon.obj
+         Release\Heart.obj
+         Release\HP.obj
+         Release\Hpbar.obj
+         Release\InsideSlot.obj
+         Release\Item.obj
+         Release\ItemTableMgr.obj
+         Release\KaBomb.obj
+         Release\KeyMgr.obj
+         Release\LightMinotaur.obj
+         Release\Logo.obj
+         Release\MainGame.obj
+         Release\Markup.obj
+         Release\MathMgr.obj
+         Release\MediaMgr.obj
+         Release\MediaObj.obj
+         Release\MiniMap.obj
+         Release\Mini_Diamond.obj
+         Release\Missed.obj
+         Release\Monkey.obj
+         Release\Monster.obj
+         Release\Movie.obj
+         Release\MultiTexture.obj
+         Release\Num.obj
+         Release\Obj.obj
+         Release\ObjMgr.obj
+         Release\Octoboss.obj
+         Release\OrangeSlime.obj
+         Release\ParticleMgr.obj
+         Release\Perfect.obj
+         Release\Pipeline.obj
+         Release\Player.obj
+         Release\PlayerAttack.obj
+         Release\PushDown.obj
+         Release\PushLeft.obj
+         Release\PushRight.obj
+         Release\PushUp.obj
+         Release\Rand.obj
+         Release\RcCol.obj
+         Release\RcTex.obj
+         Release\RectEffect.obj
+         Release\RedBat.obj
+         Release\SamllHeart.obj
+         Release\SceneMgr.obj
+         Release\SceneObj.obj
+         Release\Shopkeeper.obj
+         Release\SingleTexture.obj
+         Release\Skeleton.obj
+         Release\Slot.obj
+         Release\SpikeTrap.obj
+         Release\Stage.obj
+         Release\Stage1.obj
+         Release\Stage2.obj
+         Release\Stairs.obj
+         Release\stdafx.obj
+         Release\Tentacle.obj
+         Release\TerrainCol.obj
+         Release\TextMgr.obj
+         Release\Texture.obj
+         Release\TextureMgr.obj
+         Release\TextureRenderer.obj
+         Release\Tile.obj
+         Release\TimeMgr.obj
+         Release\Trap.obj
+         Release\TriCol.obj
+         Release\TutorialStage.obj
+         Release\TutorialText.obj
+         Release\UI.obj
+         Release\UITex.obj
+         Release\VIBuffer.obj
+         Release\Warning.obj
+         Release\Wraith.obj
+         Release\YellowDireBat.obj
+         Release\YellowSkeleton.obj
+         Generating code
+         Finished generating code
+     1>Strmbase.lib(amfilter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'Strmbase.lib(amfilter.obj)' or at 'C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\vc90.pdb'; linking object as if no debug info
+     1>Strmbase.lib(arithutil.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'Strmbase.lib(arithutil.obj)' or at 'C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\vc90.pdb'; linking object as if no debug info
+     1>Strmbase.lib(combase.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'Strmbase.lib(combase.obj)' or at 'C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\vc90.pdb'; linking object as if no debug info
+     1>Strmbase.lib(ctlutil.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'Strmbase.lib(ctlutil.obj)' or at 'C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\vc90.pdb'; linking object as if no debug info
+     1>Strmbase.lib(mtype.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'Strmbase.lib(mtype.obj)' or at 'C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\vc90.pdb'; linking object as if no debug info
+     1>Strmbase.lib(renbase.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'Strmbase.lib(renbase.obj)' or at 'C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\vc90.pdb'; linking object as if no debug info
+     1>Strmbase.lib(wxlist.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'Strmbase.lib(wxlist.obj)' or at 'C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\vc90.pdb'; linking object as if no debug info
+     1>Strmbase.lib(wxutil.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'Strmbase.lib(wxutil.obj)' or at 'C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\vc90.pdb'; linking object as if no debug info
+         Client.vcxproj -> C:\Users\sangs\Desktop\47 권상수\RhythmGame\Release\Client.exe
+     1>Done Building Project "C:\Users\sangs\Desktop\47 권상수\RhythmGame\Client\Client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.25
