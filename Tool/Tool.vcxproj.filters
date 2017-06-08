@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\0.MainFrm">
+      <UniqueIdentifier>{1c29e5a7-24ae-45d7-a8b0-d91b2135701e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View">
+      <UniqueIdentifier>{01ac5a72-aab2-4895-b7d5-1428ed30405b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\0.MainView">
+      <UniqueIdentifier>{c1ddad9f-67e5-41c8-8621-14499bbc5b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\1.FormView">
+      <UniqueIdentifier>{e990bcee-ae5d-4724-8127-36a939222108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool">
+      <UniqueIdentifier>{15b93576-d61a-4ce8-a70c-0601ebf25bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\CubeTool">
+      <UniqueIdentifier>{d74e38c0-b419-4fb9-977d-d0f927fd0a23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\CubeTool\CubeView">
+      <UniqueIdentifier>{4efa3fb5-e3c1-4f79-8df2-99e87aadc1e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\CubeTool\CubeView\ViewDialog">
+      <UniqueIdentifier>{d8556d08-9aa8-45ca-b805-5e487c5a15d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\UnitTool">
+      <UniqueIdentifier>{7d73ff1d-42c5-4977-8c68-9c4520912acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\UnitTool\UnitView">
+      <UniqueIdentifier>{a6453887-7a4b-44c9-a0db-610a2ccacac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\UnitTool\UnitView\Unit_ViewDialog">
+      <UniqueIdentifier>{aebc64a4-6ae1-44e9-82c4-9c59f45ed35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\ObjTool">
+      <UniqueIdentifier>{d091d273-6345-4da4-b4ae-5d183f946dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\ItemTool">
+      <UniqueIdentifier>{3b162f9b-ae88-4e9e-b9ff-327b020ace5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\AniTool">
+      <UniqueIdentifier>{704f792e-88f8-47e6-b614-b0e0d81b9f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\AniTool\AniDialog">
+      <UniqueIdentifier>{ba49f05d-10cc-46a2-a5d4-0770caf2f934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\AniTool\AniDialog\AniView">
+      <UniqueIdentifier>{8d33230f-8b16-4dec-bae6-5aef611f202a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\PathTool">
+      <UniqueIdentifier>{30d060cc-8dad-4a9f-88d4-969cc9dd2228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\1.View\2.Tool\EtcTool">
+      <UniqueIdentifier>{b4464b8d-dfb8-481a-9ab2-1f1e250c248a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager">
+      <UniqueIdentifier>{37b5dacd-79e8-4133-8c5c-30046599091e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\Device">
+      <UniqueIdentifier>{b5742dcb-5795-4f9a-9820-75fa7f42d23d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\Pipeline">
+      <UniqueIdentifier>{dbfd1fb5-c170-4355-b498-5acd6d20de80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\TextureMgr">
+      <UniqueIdentifier>{06e0e117-0b0a-442a-b9ee-113bef9a9abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\TextureMgr\SingleTexture">
+      <UniqueIdentifier>{b24170ce-e99a-4379-9bce-74b82d2fa993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\TextureMgr\MultiTexture">
+      <UniqueIdentifier>{5970670c-56da-4c20-8b89-ce295da9fd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\BufferMgr">
+      <UniqueIdentifier>{fba2a927-450e-470c-8a4d-146e660d0e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\TileMap">
+      <UniqueIdentifier>{64beb927-c688-4773-9cb4-31e14e05458c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\ObjMgr">
+      <UniqueIdentifier>{fd8a2e61-2702-4949-881f-c141aa5760f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\CamMgr">
+      <UniqueIdentifier>{bd690c3a-0c7a-42c8-9895-5c9a551befdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\MainCamMgr">
+      <UniqueIdentifier>{bbc4d569-7549-487a-b63d-4cba89b4b217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\TimeMgr">
+      <UniqueIdentifier>{b4828739-8429-4ee1-bf6e-cecd6df60a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\Mouse">
+      <UniqueIdentifier>{4b725522-d0f1-440e-b51e-af00c10b845d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\MathMgr">
+      <UniqueIdentifier>{043ca9a4-e9eb-437b-a293-f2ea996f52a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\KeyMgr">
+      <UniqueIdentifier>{db4f4094-62f6-4d35-99a1-c458abd143f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\FileInfo">
+      <UniqueIdentifier>{1fda568e-5a36-40aa-9aa1-b5c7511d8572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.Manager\Frustum">
+      <UniqueIdentifier>{7c1f3808-69b6-41db-b2e2-e78804ba1277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Default">
+      <UniqueIdentifier>{fbe8b2db-bee4-4466-939c-4642e2c2c222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Default\XML">
+      <UniqueIdentifier>{3566e95c-6931-488f-8d49-01acbdbb2546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.VIBuffer">
+      <UniqueIdentifier>{925f7a2e-41d6-4f6f-934d-d4571a70a08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.VIBuffer\RcTex">
+      <UniqueIdentifier>{a5abe5de-0816-47d5-8783-1dabba7e6804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.VIBuffer\CubeTex">
+      <UniqueIdentifier>{54f69f00-b5b7-4a7b-bab1-ed9bff4143d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.VIBuffer\UnitTex">
+      <UniqueIdentifier>{75d63e9c-0c7a-4353-bab5-38a2842951d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object">
+      <UniqueIdentifier>{c9c1da6a-da2d-4c77-9e5d-502c8fef8b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\Tile">
+      <UniqueIdentifier>{52ddc3fc-e638-488f-9a5d-7c4b3f789608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\Cube">
+      <UniqueIdentifier>{002aa324-88a7-4c27-82e4-738a21c1ede4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\MainCamObj">
+      <UniqueIdentifier>{624fd225-287a-4422-b7d0-92a133425db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\Monster">
+      <UniqueIdentifier>{98271db9-fb58-4b94-8db0-b58e07b79b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.Object\Item">
+      <UniqueIdentifier>{5dd8a415-1f68-4950-b6f7-dd180c1fcf9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5.Design">
+      <UniqueIdentifier>{69da2f15-0201-4a6d-b3f3-a2b75dd6d8db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5.Design\ObjFactory">
+      <UniqueIdentifier>{2296a3b1-a8c8-4c9a-a268-f6dcdcd0cd36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일\0.MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>소스 파일\1.View\0.MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>소스 파일\1.View\1.FormView</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeTool.cpp">
+      <Filter>소스 파일\1.View\2.Tool\CubeTool</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeView.cpp">
+      <Filter>소스 파일\1.View\2.Tool\CubeTool\CubeView</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewDialog.cpp">
+      <Filter>소스 파일\1.View\2.Tool\CubeTool\CubeView\ViewDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTool.cpp">
+      <Filter>소스 파일\1.View\2.Tool\UnitTool</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitView.cpp">
+      <Filter>소스 파일\1.View\2.Tool\UnitTool\UnitView</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit_ViewDialog.cpp">
+      <Filter>소스 파일\1.View\2.Tool\UnitTool\UnitView\Unit_ViewDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjTool.cpp">
+      <Filter>소스 파일\1.View\2.Tool\ObjTool</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTool.cpp">
+      <Filter>소스 파일\1.View\2.Tool\ItemTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AniTool.cpp">
+      <Filter>소스 파일\1.View\2.Tool\AniTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AniDialog.cpp">
+      <Filter>소스 파일\1.View\2.Tool\AniTool\AniDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="AniView.cpp">
+      <Filter>소스 파일\1.View\2.Tool\AniTool\AniDialog\AniView</Filter>
+    </ClCompile>
+    <ClCompile Include="PathTool.cpp">
+      <Filter>소스 파일\1.View\2.Tool\PathTool</Filter>
+    </ClCompile>
+    <ClCompile Include="EtcTool.cpp">
+      <Filter>소스 파일\1.View\2.Tool\EtcTool</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>소스 파일\4.Manager\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipeline.cpp">
+      <Filter>소스 파일\4.Manager\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\4.Manager\TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>소스 파일\4.Manager\TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>소스 파일\4.Manager\TextureMgr\SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>소스 파일\4.Manager\TextureMgr\MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferMgr.cpp">
+      <Filter>소스 파일\4.Manager\BufferMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>소스 파일\4.Manager\TileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>소스 파일\4.Manager\ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CamMgr.cpp">
+      <Filter>소스 파일\4.Manager\CamMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCamMgr.cpp">
+      <Filter>소스 파일\4.Manager\MainCamMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>소스 파일\4.Manager\TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>소스 파일\4.Manager\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="MathMgr.cpp">
+      <Filter>소스 파일\4.Manager\MathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\4.Manager\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>소스 파일\4.Manager\FileInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>소스 파일\4.Manager\Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>소스 파일\99.Default\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="VIBuffer.cpp">
+      <Filter>소스 파일\3.VIBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="RcTex.cpp">
+      <Filter>소스 파일\3.VIBuffer\RcTex</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeTex.cpp">
+      <Filter>소스 파일\3.VIBuffer\CubeTex</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTex.cpp">
+      <Filter>소스 파일\3.VIBuffer\UnitTex</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\2.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>소스 파일\2.Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>소스 파일\2.Object\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCamObj.cpp">
+      <Filter>소스 파일\2.Object\MainCamObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\2.Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\2.Object\Item</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>소스 파일\0.MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>소스 파일\1.View\0.MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>소스 파일\1.View\1.FormView</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeTool.h">
+      <Filter>소스 파일\1.View\2.Tool\CubeTool</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeView.h">
+      <Filter>소스 파일\1.View\2.Tool\CubeTool\CubeView</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewDialog.h">
+      <Filter>소스 파일\1.View\2.Tool\CubeTool\CubeView\ViewDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTool.h">
+      <Filter>소스 파일\1.View\2.Tool\UnitTool</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitView.h">
+      <Filter>소스 파일\1.View\2.Tool\UnitTool\UnitView</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit_ViewDialog.h">
+      <Filter>소스 파일\1.View\2.Tool\UnitTool\UnitView\Unit_ViewDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjTool.h">
+      <Filter>소스 파일\1.View\2.Tool\ObjTool</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTool.h">
+      <Filter>소스 파일\1.View\2.Tool\ItemTool</Filter>
+    </ClInclude>
+    <ClInclude Include="AniTool.h">
+      <Filter>소스 파일\1.View\2.Tool\AniTool</Filter>
+    </ClInclude>
+    <ClInclude Include="AniDialog.h">
+      <Filter>소스 파일\1.View\2.Tool\AniTool\AniDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="AniView.h">
+      <Filter>소스 파일\1.View\2.Tool\AniTool\AniDialog\AniView</Filter>
+    </ClInclude>
+    <ClInclude Include="PathTool.h">
+      <Filter>소스 파일\1.View\2.Tool\PathTool</Filter>
+    </ClInclude>
+    <ClInclude Include="EtcTool.h">
+      <Filter>소스 파일\1.View\2.Tool\EtcTool</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>소스 파일\4.Manager\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline.h">
+      <Filter>소스 파일\4.Manager\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\4.Manager\TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>소스 파일\4.Manager\TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>소스 파일\4.Manager\TextureMgr\SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>소스 파일\4.Manager\TextureMgr\MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferMgr.h">
+      <Filter>소스 파일\4.Manager\BufferMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>소스 파일\4.Manager\TileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>소스 파일\4.Manager\ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CamMgr.h">
+      <Filter>소스 파일\4.Manager\CamMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCamMgr.h">
+      <Filter>소스 파일\4.Manager\MainCamMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>소스 파일\4.Manager\TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>소스 파일\4.Manager\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="MathMgr.h">
+      <Filter>소스 파일\4.Manager\MathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\4.Manager\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>소스 파일\4.Manager\FileInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>소스 파일\4.Manager\Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>소스 파일\99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>소스 파일\99.Default\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="VIBuffer.h">
+      <Filter>소스 파일\3.VIBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RcTex.h">
+      <Filter>소스 파일\3.VIBuffer\RcTex</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeTex.h">
+      <Filter>소스 파일\3.VIBuffer\CubeTex</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTex.h">
+      <Filter>소스 파일\3.VIBuffer\UnitTex</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\2.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>소스 파일\2.Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>소스 파일\2.Object\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCamObj.h">
+      <Filter>소스 파일\2.Object\MainCamObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\2.Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\2.Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFactory.h">
+      <Filter>소스 파일\5.Design\ObjFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>소스 파일\99.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>
